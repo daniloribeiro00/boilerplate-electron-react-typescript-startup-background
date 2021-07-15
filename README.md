@@ -195,7 +195,7 @@ yarn dist
 
 - #### Installation on Linux / Instalação no Linux:
 
-    To ensure the application to work correctly, follow these the installation steps below:
+    To ensure the application to work correctly, follow the installation steps below:
 
     Para que todas as funções da aplicação funcionem corretamente, realize a instalação conforme os passos abaixo:
 
