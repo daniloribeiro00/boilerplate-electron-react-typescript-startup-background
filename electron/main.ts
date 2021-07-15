@@ -25,8 +25,8 @@ const gotTheLock = app.requestSingleInstanceLock(); // Force app to only allow s
 
 function showNotification() {
 	new Notification({
-		title: 'PlugMarket Desktop Client',
-		body: 'O aplicativo está em execução.',
+		title: 'Electron App',
+		body: 'The app is running',
 		icon: path.join(process.resourcesPath, 'assets/favicon.png'),
 	}).show();
 }
@@ -50,8 +50,8 @@ function createTray() {
 	]);
 
 	tray.setContextMenu(contextMenu);
-	tray.setToolTip('PlugMarket Desktop Client');
-	tray.setTitle('PlugMarket Desktop Client');
+	tray.setToolTip('Electron App');
+	tray.setTitle('Electron App');
 
 	showNotification();
 }
@@ -112,7 +112,7 @@ if (process.platform === 'win32') {
 
 // Set app to run at OS startup
 const autoLaunch = new AutoLaunch({
-	name: 'PlugMarket Desktop Client',
+	name: 'Electron App',
 });
 autoLaunch.isEnabled().then(isEnabled => {
 	if (isEnabled) {
