@@ -80,7 +80,7 @@ function createWindow() {
 		// mainWindow.maximize();
 
 		// Open developer tools
-		// mainWindow.webContents.openDevTools();
+		mainWindow.webContents.openDevTools();
 
 		mainWindow.on('closed', () => {
 			mainWindow = null;
@@ -112,7 +112,7 @@ if (process.platform === 'win32') {
 
 // Set app to run at OS startup
 const autoLaunch = new AutoLaunch({
-	name: 'PlugMarket Desktop Client'
+	name: 'PlugMarket Desktop Client',
 });
 autoLaunch.isEnabled().then(isEnabled => {
 	if (isEnabled) {
@@ -134,17 +134,13 @@ if (!gotTheLock) {
 
 	// Action when the first instance is opened
 	app
-		.on('ready', () => {
-			createTray();
-		})
+		.on('ready', createTray)
 		.whenReady()
-		.then(() => {
-			registerListeners();
-		})
+		.then(registerListeners)
 		.catch(e => console.error(e));
 }
 
-// Only MacOS
+// Apps in MacOS generally stay open even if all windows are closed
 // Hide app in dock when all windows are closed
 app.on('window-all-closed', () => {
 	if (process.platform === 'darwin') {

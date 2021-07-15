@@ -6,10 +6,11 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    color: #212121;
   }
 
   body {
-    background-color: #0bba60;
+    background-color: #212121;
     max-width: 1200px;
     margin: 0 auto;
     min-height: 100%;

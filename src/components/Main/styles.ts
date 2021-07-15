@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
-	margin: 0 auto;
+	margin: 3rem auto;
 	background: #eee;
 	border-radius: 1rem;
 	padding: 2rem;
@@ -9,14 +9,19 @@ export const Container = styled.main`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 1rem;
 
 	h2 {
 		font-size: 1.7rem;
 		font-weight: 400;
 	}
 
-	p {
+	img {
+		height: 40vmin;
+		pointer-events: none;
+		padding: 2rem;
+	}
+
+	span {
 		font-size: 1.4rem;
 		font-weight: 400;
 	}
