@@ -2,7 +2,7 @@
 	"name": "boilerplate-electron-react-typescript-startup-background",
 	"author": "Danilo Ribeiro <danilo.ribeiro00d@gmail.com>",
 	"version": "1.0.0",
-	"description": "An Electron boilerplate including TypeScript, React JS, Styled Components, Jest and ESLint. Including run app at OS startup and in background.",
+	"description": "An Electron boilerplate including TypeScript, React JS, Styled Components, Jest and ESLint. Including running app at OS startup and in background.",
 	"homepage": "https://github.com/",
 	"main": "./.webpack/main/index.js",
 	"scripts": {
