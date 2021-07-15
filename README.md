@@ -16,7 +16,7 @@ There are 3 ways to show its UI:
 
 1 - Click in the app icon on system tray and select "Show App".
 
-2 - Open using the shortcut in start menu (Windows), Launchpad (MacOS) or applications menu (Linux).
+2 - Open using the shortcut in start menu (Windows) or applications menu (Linux).
 
 3 - Open using the shortcut in desktop (Windows).
 
@@ -30,7 +30,7 @@ Há 3 opções para exibir a interface:
 
 1 - Clicar em seu ícone na barra e selecionar "Show App".
 
-2 - Abrir pelo atalho no menu iniciar (Windows), Launchpad (MacOS) ou menu de aplicativos (Linux).
+2 - Abrir pelo atalho no menu iniciar (Windows) ou menu de aplicativos (Linux).
 
 3 - Abrir pelo atalho criado na área de trabalho (Windows).
 
@@ -137,6 +137,14 @@ yarn dist
     ```bash
     yarn dist:mac-arm
     ```
+
+#### Note / Observação:
+
+- #### Running apps in background on MacOS / Rodando apps em background no MacOS:
+
+    Additional settings are required in order to run the app in background on MacOS without messing up its operation on Windows and Linux. Pull requests to fix this issue are welcome :)
+
+    Configurações adicionais são necessárias para executar a aplicação em background no MacOS sem atrapalhar o funcionamento no Windows e Linux. Pull requests para corrigir o problema são bem-vindos :)
 
 <br>
 
