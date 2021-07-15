@@ -90,7 +90,7 @@ Os arquivos serão criados na pasta `/dist`.
 
 <br>
 
-### The OS you are currently running:
+### The OS you are currently running / O sistema operacional que você está usando no momento:
 
 ```bash
 yarn dist
