@@ -20,8 +20,6 @@ There are 3 ways to show its UI:
 
 3 - Open using the shortcut in desktop (Windows).
 
-If you don't want this behavior, click [here](https://github.com/daniloribeiro00/boilerplate-electron-react-typescript).
-
 <br>
 
 Por padrão, a aplicação está configurada para iniciar em background com o sistema operacional em sua barra de tarefas (Tray).
@@ -33,8 +31,6 @@ Há 3 opções para exibir a interface:
 2 - Abrir pelo atalho no menu iniciar (Windows) ou menu de aplicativos (Linux).
 
 3 - Abrir pelo atalho criado na área de trabalho (Windows).
-
-Se você não deseja esse comportamento, clique [aqui](https://github.com/daniloribeiro00/boilerplate-electron-react-typescript).
 
 <br>
 <hr>
